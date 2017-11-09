@@ -15,13 +15,35 @@ html {
 
 /* MAIN-BANNER */
 
+
+            /* * BANNER * */
+
 .main-banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 558px;
+  flex-direction: column;
+}
+
+.top-main {
+  height: 45%;
+  width: 100%;
+  display: flex;
   justify-content: center;
 }
+
+.bottom-main {
+  height: 55%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  }
+
+
+           /* * NAVIGATION BAR * */
+
+
 
 .navigation-bar {
   display: flex;
@@ -58,3 +80,54 @@ html {
 .menu span {
   padding-left: 2rem;
 }
+
+
+             /* * SLOGAN * */
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  width: 27rem;
+  height: 6rem;
+  margin-right: 11rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COMBAK:  */
