@@ -197,12 +197,35 @@ html {
  }
 
 
+/* footer */
 
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 4rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  background-color: azure;
+  padding-left: 4rem;
+}
+
+footer img {
+  width: 85px;
+  height: 30px;
+}
 
 
-
-
+.foot-copy {
+  padding-left: 1rem;
+}
 
 
 
