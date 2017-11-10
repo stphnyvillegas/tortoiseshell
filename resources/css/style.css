@@ -158,11 +158,43 @@ html {
 }
 
 
+/* BOTTOM BANNER */
 
 
+.bottom-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  heigh: 14rem;
+}
 
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  height: 13rem;
+}
 
+.philosophy ,
+ .appointments {
+   display: flex;
+   width: 40%;
+   flex-direction: column;
+ }
 
+ .head-title {
+   background: cadetblue;
+   color: white;
+   font-weight: bold;
+   width: 65%;
+   padding: 0.5rem 0 0.5rem 1.25rem;
+ }
+
+ .des-text {
+   padding-top: 1rem;
+   font-family: Helvetica;
+ }
 
 
 
