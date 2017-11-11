@@ -165,7 +165,7 @@ html {
   display: flex;
   justify-content: center;
   width: 100%;
-  heigh: 14rem;
+  height: 14rem;
 }
 
 .content {
@@ -228,8 +228,109 @@ footer img {
 }
 
 
+/* MEDIA QUERY */
+
+                /* SCREEN AT 1024PX */
+
+@media only screen and (max-width: 1024px) {
+  .main-banner {
+    background-size: cover;
+    height: 450px;
+    flex-direction: column;
+  }
+
+  .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    width: 20rem;
+    height: 4rem;
+    margin-right: 5rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    height: 13rem;
+  }
+
+  .philosophy ,
+   .appointments {
+     display: flex;
+     width: 50%;
+     flex-direction: column;
+   }
+
+}
 
 
+                    /* screen at at 768px */
+
+@media only screen and (max-width: 768px) {
+
+  .main-banner {
+    background-position: 30% 50%;
+    height: 22rem;
+    flex-direction: column;
+  }
+
+  .top-main {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .bottom-main {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+  .navigation-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .slogan {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 17rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+
+  .flex-box {
+    width: 80%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 13rem;
+  }
+
+  .philosophy ,
+   .appointments {
+     display: flex;
+     width: 45%;
+     flex-direction: column;
+   }
 
 
 
