@@ -81,6 +81,9 @@ html {
   padding-left: 2rem;
 }
 
+.display-480 {
+  display: none;
+}
 
              /* * SLOGAN * */
 
@@ -333,11 +336,107 @@ footer img {
    }
 
 
+            /* screen at 480pxs */
 
 
 
+@media only screen and (max-width: 480px) {
+
+  .logo-text {
+    display: none;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  .display-480{
+    display: inherit;
+  }
+
+  .main-banner {
+    background-position: 30% 50%;
+    height: 22rem;
+    flex-direction: column;
+  }
+
+  .top-main {
+    height: 80%;
+  }
+
+  .bottom-main {
+    height: 20%;
+    }
+
+  .slogan {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .flex-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.77rem;
+  }
+
+  .exams img {
+    width: 4rem;
+    height:4.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .fittings img ,
+    .delivery img {
+      width: 5rem;
+      height: 3.4rem;
+      padding-bottom: 1rem;
+    }
 
 
+
+  .content {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 15rem;;
+  }
+
+  .philosophy ,
+   .appointments {
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+   }
+
+  .head-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 5rem;
+  }
+
+  .foot {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .foot-copy {
+    display: none;
+  }
+
+  .foot-img {
+    padding: 0;
+    margin: 0 auto;
+  }
+}
 
 
 
